@@ -37,7 +37,7 @@ const Hexagon: React.FC<HexagonProps> = ({ imageUrl, contentColor, hexData }) =>
     }, [data]);
 
     return (
-        // <div className={styles.hexagon}   style={{ backgroundColor: contentColor }}>
+        // <div className={styles.hexagon}    style={{ backgroundColor: contentColor }}>
         <div className={`${styles.hexagon} ${styles[animationState]}`} style={{ backgroundColor: currentItem.color }}>
             <img src={currentItem.img_url} alt="Hexagon Image" className={styles.hexagonImage} />
         </div>
